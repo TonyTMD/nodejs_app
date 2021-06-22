@@ -1,0 +1,19 @@
+doctype html5
+html
+	head
+		title #{title}
+		link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css")
+		style(type='text/css').
+			#nav li {
+				list-style: none;
+				float: left;
+				padding: 0 10px;
+			}
+	body
+		div.container(style="max-width: 800px;")
+			h1 Nodejs Jade Sample Application
+			block content
+
+			footer(style="text-align:center;")
+				p Copyright © XYZ
+
